@@ -1,14 +1,16 @@
 # Checked
 Checked is a minimalistic task management app for mac.
 
-# Get Started
-  - npm install
-  - npm run build
-  - npm run build-mac
+## Get Started
+```
+npm install
+npm run build
+npm run build-mac
+```
   - Navigate to project folder → dist → run .dmg file
   - Enjoy! 🥳
 
-# Shortcuts
+## Shortcuts
 
 Global:
   - cmd+f = Bring app to front
