@@ -8,7 +8,7 @@ Checked is a minimalistic task management app for mac.
   - Navigate to project folder → dist → run .dmg file
   - Enjoy! 🥳
 
-## Shortcuts
+# Shortcuts
 
 Global:
   - cmd+f = Bring app to front
