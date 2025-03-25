@@ -17,4 +17,10 @@ Global:
 In-app:
   - cmd+a = Start adding new task
   - cmd+s = Save note card
+
+
+
+
+
+
 ![Checked](https://github.com/user-attachments/assets/3320a280-9a17-44c2-b7a0-bf276dba3667)
