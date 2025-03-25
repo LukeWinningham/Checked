@@ -1,0 +1,54 @@
+{
+  "name": "checked",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "electron .",
+    "build-mac": "electron-builder --mac"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
+    "canvas": "^3.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "styled-components": "^6.1.15",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "electron": "^27.3.11",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.luke.checked",
+    "productName": "Checked",
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "preload.js",
+      "assets/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+    "mac": {
+      "category": "public.app.category.utilities",
+      "target": "dmg",
+      "icon": "assets/Checked.png"
+    }
+  }
+}
