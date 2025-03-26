@@ -1,4 +1,5 @@
-# Checked
+#   <img src="https://github.com/user-attachments/assets/3320a280-9a17-44c2-b7a0-bf276dba3667" alt="Checked">
+Checked
 Checked is a minimalistic task management app for mac.
 
 ## Get Started
