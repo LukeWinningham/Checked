@@ -13,12 +13,12 @@ npm run build-mac
 ## Shortcuts
 
 **Global:**
-  - `cmd + f` = Bring app to front
-  - `cmd + n` = New note card
+  - `cmd + X` = Bring app to front
+  - `cmd + N` = New note card
 
 **In-app:**
-  - `cmd + a` = Start adding new task
-  - `cmd + s` = Save note card
+  - `cmd + A` = Start adding new task
+  - `cmd + S` = Save note card
 
 
 
