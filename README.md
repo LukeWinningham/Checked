@@ -1,12 +1,26 @@
-# React + Vite
+# Checked
+Checked is a minimalistic task management app for mac.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Get Started
+  - npm install
+  - npm run build
+  - npm run build-mac
+  - Navigate to project folder → dist → run .dmg file
+  - Enjoy! 🥳
 
-Currently, two official plugins are available:
+# Shortcuts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Global:
+  - cmd+X = Bring app to front
+  - cmd+N = New note card
 
-## Expanding the ESLint configuration
+In-app:
+  - cmd+A = Start adding new task
+  - cmd+S = Save note card
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+![Checked](https://github.com/user-attachments/assets/3320a280-9a17-44c2-b7a0-bf276dba3667)
