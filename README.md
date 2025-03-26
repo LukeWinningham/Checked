@@ -16,7 +16,7 @@ npm run build-mac
   - `cmd + X` = Bring app to front
   - `cmd + N` = New note card
 
-**In-app:**
+**📲 In-app:**
   - `cmd + A` = Start adding new task
   - `cmd + S` = Save note card
 
