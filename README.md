@@ -10,9 +10,9 @@ npm run build-mac
   - Navigate to project folder → dist → run .dmg file
   - Enjoy! 🥳
 
-## Shortcuts
+## Shortcuts ⚡️
 
-**Global:**
+**🌎 Global:**
   - `cmd + X` = Bring app to front
   - `cmd + N` = New note card
 
