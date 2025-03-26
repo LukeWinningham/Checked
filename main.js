@@ -56,7 +56,7 @@ app.whenReady().then(() => {
     createCardViewWindow(newList);
   });
 
-  globalShortcut.register('CommandOrControl+F', () => {
+  globalShortcut.register('CommandOrControl+X', () => {
     if (cardViewWindow && !cardViewWindow.isDestroyed()) {
       if (!cardViewWindow.isVisible()) {
         cardViewWindow.show();
