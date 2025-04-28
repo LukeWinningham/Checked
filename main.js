@@ -104,6 +104,14 @@ function createCardViewWindow(listData) {
     opacity: 0.93,
     show: false
   })
+  cardViewWindow.on('focus', () => {
+    cardViewWindow.setOpacity(1);
+  });
+
+  cardViewWindow.on('blur', () => {
+    cardViewWindow.setOpacity(0.93);
+  });
+
   cardViewWindow.once('ready-to-show', () => {
     cardViewWindow.show();
     const [currentX, currentY] = cardViewWindow.getPosition();
@@ -363,4 +371,5 @@ app.on('window-all-closed', () => {
     app.quit();
   }
 });
+
 
